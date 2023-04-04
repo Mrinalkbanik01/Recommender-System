@@ -1,5 +1,6 @@
 import React from 'react'
-
+// import Jbbb from './Components/welcome/jbbb'
+// import './Components/welcome/style.css'
 export default function SignUp() {
   return (
     <div className="login-box">
