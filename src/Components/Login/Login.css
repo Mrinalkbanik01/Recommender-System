@@ -10,14 +10,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(C:\Users\ASUS\Desktop\Hacks\Recommender-System\public\assests\bg.jpg);
-    background-size: cover;
+    background-image: url('../../../public/assests/main1.png');
+    background-size:100%;
+    background-position: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
 }
-.login-box{
+.login-box1{
     position: relative;
     width: 400px;
-    height: 460px;
+    height: 450px;
     border: 2px solid rgb(248, 245, 245);
     background: transparent;
     /* background-color: white; */
@@ -25,15 +28,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
     backdrop-filter: blur(40px);
 }
-h2{
+.b1{
     font-size: 2em;
     color: #ffffff;
     text-align:center;
     padding-bottom: 5px;
 }
-.input-box{
+.input-box1{
     position:relative;
     width:310px;
     margin:20px;
@@ -41,7 +46,7 @@ h2{
     border-bottom: 2px solid #ffffff;
     padding:5px 0 5px 0;
 }
-.input-box label{
+.input-box1 label{
     position:absolute;
     top:50%;
     left: 5px;
@@ -50,12 +55,12 @@ h2{
     color: #ffffff;
     transition: 0.5s;
 }
-.input-box input:focus~label,
-.input-box input:valid~label{
+.input-box1 input:focus~label,
+.input-box1 input:valid~label{
     top: -5px;
 }
 
-.input-box input{
+.input-box1 input{
     width: 100%;
     height: 50px;
     background:transparent;
@@ -65,7 +70,7 @@ h2{
     color:#ffffff;
     padding:0 35px 0 8px;
 }
-.remember-forgot{
+.remember-forgot1{
     margin: -5px 0 5px 0;
     padding:10px 35px 20px 35px;
     color: #ffffff;
@@ -73,51 +78,56 @@ h2{
     font-size: 1.05em;
     justify-content: space-between;
 }
-.remember-forgot label input{
+.remember-forgot1 label input{
     margin-right: 3px;
 
 }
-.remember-forgot a{
+.remember-forgot1 a{
     color: #ffffff;
     text-decoration: none;
 }
-.remember-forgot a:hover{
+.remember-forgot1 a:hover{
     /* font-size: 1.05em; */
     color:rgb(43, 172, 219);
     text-decoration: underline;
 }
-.but,.already{
+.but1{
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-button{
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin:10px 0 -5px 0;
     width:55%;
-    height: 46px;
+    height: 49px;
     border-radius: 50px;
     border:0.5px solid grey;
     cursor: pointer;
-    font-size: 1.3em;
+    background-color: #ffffff;
+    font-size: 1.4em;
     color:black;
     font-weight: 600;
+    text-decoration: none;
 }
-button:hover{
-    font-size:1.35em;
+.btn1:hover{
+    font-size:1.45em;
 }
-button:active{
-    background-color: rgb(146, 247, 252);
+.btn1:active{
+    background-color: rgb(170, 219, 221);
 }
 p{
     color:#ffffff;
 }
-.already{
+.already1{
     padding: 15px 0 0 0;
     margin-bottom: -10px;
     font-size: 1.05em;
 }
-.already a{
+.already1 a{
     padding-left: 10px;
     color:rgb(43, 172, 219);
 }

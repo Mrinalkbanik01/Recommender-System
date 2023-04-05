@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    background-image: url('../../../public/assests/main1.png');
+    background-size:100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    color: white;
+    /* font-size: 112px; */
+    /* animation: 10s 0s infinite normal; */
+    /* animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal; */
+}

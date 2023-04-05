@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Popins','sans-serif';
+}
+body{
+    
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    background-image: url('../../../public/assests/main1.png');
+    background-size:100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
+}
+.full{
+    /* display:grid;
+    grid-template-columns: 60% 60%;
+    column-gap: 70px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding-right: 70px; */
+}
+.container{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:200px;
+    border:2px solid white;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 3em;
+    color:aliceblue;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    text-decoration: none;
+}
+.container:hover{
+    box-shadow: 2px 2px rgb(138, 243, 243);
+    font-size: 3.15em;
+    backdrop-filter: blur(80px);
+    /* text-decoration:dotted; */
+}
+.container:active{
+    /* backdrop-filter: blur(100px); */
+    background: transparent;
+}
