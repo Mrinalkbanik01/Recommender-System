@@ -1,26 +1,25 @@
 
 import React from 'react'
-// import SignUp from './Components/SignUP/SignUp'
-// import './Components/SignUP/Signup.css'
-// import Login from './Components/Login/login1'
-// import './Components/Login/login2.css'
-// import jbbb from './Components/welcome/jbbb'
-// import './Components/welcome/style.css'
-// import Opt from './Components/Options/opt'
-// import './Components/Options/op.css'
-import Start from './Components/start/start'
-import './Components/start/start1.css'
+import {BrowserRouter,Routes , Route } from 'react-router-dom';
+import SignUp from './Components/SignUP/SignUp'
+import Login from './Components/Login/Login'
+import Welcome from './Components/Welcome/Welcome'
+// import Opt from './Components/Options/Opt
+import Start from './Components/Start/Start'
 const App = () => {
   return (
     <>
-    {/* <Opt/> */}
+    <BrowserRouter>
+    {/* <Start/> */}
+    <Routes>
 
-    {/* <SignUp/> */}
-    {/* <jbbb/> */}
-    {/* <Login/> */}
-    <Start/>
+      <Route path="/" element={<Start/>} />
+      <Route path="/login" element={<Login/>} />
+      <Route path="/signup" element={<SignUp/>} />
+      <Route path="/welcome" element={<Welcome/>} />
+    </Routes>
+    </BrowserRouter>
     </>
   )
-}
-
-export default App
+  }
+export default App;

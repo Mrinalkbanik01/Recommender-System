@@ -7,24 +7,29 @@
 }
 body{
     display: flex;
-    justify-content: center;
+    position:relative;
+    justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(C:\Users\ASUS\Desktop\Hacks\Recommender-System\public\assests\bg.jpg);
-    background-size: cover;
+    background-image: url('../../../public/assests/main1.png');
+    background-size:100%;
+    background-position: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;  
 }
 .login-box{
     position: relative;
     width: 400px;
-    height: 550px;
+    height: 600px;
     border: 2px solid rgb(248, 245, 245);
     background: transparent;
-    /* background-color: white; */
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
     backdrop-filter: blur(40px);
 }
 h2{
@@ -85,26 +90,31 @@ h2{
     color:rgb(43, 172, 219);
     text-decoration: underline;
 }
-.but,.already{
+.but{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-button{
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin:25px 0 0 0;
     width:50%;
     height: 47px;
     border-radius: 50px;
     border:0.5px solid grey;
+    background-color: #ffffff;
     cursor: pointer;
     font-size: 1.3em;
     color:black;
     font-weight: 600;
+    text-decoration: none;
 }
-button:hover{
+.btn:hover{
     font-size:1.35em;
 }
-button:active{
+.btn:active{
     background-color: rgb(146, 247, 252);
 }
 p{

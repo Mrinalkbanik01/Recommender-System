@@ -6,23 +6,29 @@
 }
 #root{
     display:flex;
-    justify-content: center;
+    /* margin:0 30px 0 30px; */
+    
+    justify-content: space-between;
     align-items: center;
+    /* padding : 0 20% 0 10%; */
     min-height: 100vh;
     background-color: aqua;
+    /* background-image: url(C:\Users\ASUS\Desktop\Hacks\Recommender-System\public\assests\bg_main.png);
+    background-size:100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover; */
     
 }
 .container{
     border: 2px solid white;
-    /* padding: 0 30px 0 20px; */
     width: 200px;
     height: 200px;
-    /* position: relative; */
+    font-size: 2em;
+    font-weight: 500;
+    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.box3{
-    position:absolute;
-    left: 80vw;
 }
