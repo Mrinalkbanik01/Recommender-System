@@ -10,19 +10,17 @@ body{
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("../../../public/assests/main1.png");
+    background-image: url('../../../public/assests/main1.png');
     background-size:100%;
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit:cover;
-  
-    
+    object-fit:cover;  
 }
 #root{
     position: relative;
     width: 400px;
-    height: 550px;
+    height: 600px;
     border: 2px solid rgb(248, 245, 245);
     background: transparent;
     border-radius: 20px;
@@ -91,26 +89,31 @@ h2{
     color:rgb(43, 172, 219);
     text-decoration: underline;
 }
-.but,.already{
+.but{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-button{
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin:25px 0 0 0;
     width:50%;
     height: 47px;
     border-radius: 50px;
     border:0.5px solid grey;
+    background-color: #ffffff;
     cursor: pointer;
     font-size: 1.3em;
     color:black;
     font-weight: 600;
+    text-decoration: none;
 }
-button:hover{
+.btn:hover{
     font-size:1.35em;
 }
-button:active{
+.btn:active{
     background-color: rgb(146, 247, 252);
 }
 p{
