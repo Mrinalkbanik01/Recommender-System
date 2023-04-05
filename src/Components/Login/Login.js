@@ -1,5 +1,6 @@
 import React from 'react'
-export default function SignUp() {
+import "./Login.css"
+export default function Login() {
   return (
     <div className="login-box">
       <form action=''>

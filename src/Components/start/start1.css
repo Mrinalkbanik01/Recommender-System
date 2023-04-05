@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding:0;
@@ -12,7 +11,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(C:\Users\ASUS\Desktop\Hacks\Recommender-System\public\assests\bg.jpg);
+    background-image: url('../../../public/assests/main1.png');
+    background-size:100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
 }
 .container{
     display: flex;
@@ -24,14 +28,17 @@
     border-radius: 10px;
     font-size: 3em;
     color:aliceblue;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
     backdrop-filter: blur(40px);
 }
 .container:hover{
-    box-shadow: 4px 3px rgb(138, 243, 243);
+    box-shadow: 2px 2px rgb(138, 243, 243);
     font-size: 3.2em;
     backdrop-filter: blur(80px);
     text-decoration:dotted;
 }
 .container:active{
-    backdrop-filter: blur(0);
+    /* backdrop-filter: blur(100px); */
+    background: transparent;
 }

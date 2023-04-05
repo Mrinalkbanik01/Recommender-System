@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function start() {
+export default function Start() {
   return (
     <>
-      <button className='container'>Login</button>
-      <button className='container'>SignUP</button>
+      <button className='container'>LOGIN</button>
+      <button className='container'>SIGN UP</button>
     </>
   )
 }
