@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Popins','sans-serif';
+}
+#root{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aqua;
+    
+}
+.container{
+    border: 2px solid white;
+    /* padding: 0 30px 0 20px; */
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    position:absolute;
+    left: 80vw;
+}

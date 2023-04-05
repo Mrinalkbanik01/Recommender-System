@@ -27,10 +27,10 @@ export default function SignUp() {
             <a href='/'>Forgot Password</a>
         </div>
         <div className='but'><button type='submit'>Submit</button></div>
-        <div className='already'>
+        {/* <div className='already'>
             <p>Already have an account.      
             <a href='/'>Click here</a></p>
-        </div>
+        </div> */}
       </form>
      </div> 
   )
